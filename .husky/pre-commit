@@ -1,2 +1,2 @@
-npm test
-exit 1
+set -ex
+npm run lint-staged
