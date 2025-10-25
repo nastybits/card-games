@@ -1,8 +1,2 @@
-#!/bin/sh
-
-set -e
-npm run lint-staged
-npm run test:unit -- --run
-echo "All checks passed — committing!"
-
+npm test
 exit 1
